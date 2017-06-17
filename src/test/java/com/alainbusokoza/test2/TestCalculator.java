@@ -10,7 +10,7 @@ public class TestCalculator {
 	public void testAdd(){
 		Calculator cal = new Calculator();
 		double result = cal.add(5, 7);
-		assertEquals("!!!", 12, result, 0);
+		assertEquals("!!!", 13, result, 0);
 	}
 
 }
